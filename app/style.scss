@@ -1,0 +1,123 @@
+@import "global";
+
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-color: $pale-blue;
+  background-size: 100vw auto;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+
+  .white-card {
+    height: 43.75em;
+    width: 29em;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: rgba(133, 151, 170, 0.424) 3px 20px 24px;
+
+    img {
+      width: 100%;
+      border-radius: 14px 14px 0 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0em 3.125em 0em 3.125em;
+
+      h2 {
+        margin: 2.1em 0em 0.1em 0em;
+      }
+      p {
+        text-align: center;
+        margin: 0.938em 1.25em 1.25em 1.25em;
+        color: $desaturated-blue;
+      }
+      .blue-card {
+        background-color: $very-pale-blue;
+        margin: auto;
+        height: 5.625em;
+        width: 21.875em;
+        border-radius: 10px;
+        padding-left: 1.25em;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        a:hover {
+          text-decoration: none;
+          color: hsl(245, 59%, 66%);
+        }
+        img {
+          height: 48px;
+          width: 48px;
+          margin-right: 1.25em;
+        }
+        .info {
+          margin-right: 6em;
+
+          p {
+            margin: 0;
+            text-align: left;
+          }
+        }
+      }
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      button {
+        font-size: $font-size;
+        font-family: $font-family;
+        background-color: $bright-blue;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 100px 11px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 40px 2px;
+        cursor: pointer;
+        box-shadow: rgba(133, 151, 170, 0.424) 3px 20px 24px;
+      }
+      button:hover {
+        background-color: hsl(245, 59%, 66%);
+      }
+      a {
+        text-decoration: none;
+        color: $desaturated-blue;
+        font-weight: bold;
+      }
+      a:hover {
+        color: $dark-blue;
+      }
+    }
+  }
+}
+
+/* Media Query */
+$breakpoint: 500px;
+@media only screen and (max-width: $breakpoint) {
+  main {
+    margin-top: 5em;
+    min-width: 500px;
+    min-height: 750px;
+   
+    body {
+      background-image: url(/images/pattern-background-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: 100vw auto;
+    }
+  }
+}

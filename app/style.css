@@ -1,0 +1,169 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  background-size: 100vw auto;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 95vh;
+}
+
+main .white-card {
+  height: 43.75em;
+  width: 29em;
+  background-color: white;
+  border-radius: 3%;
+  -webkit-box-shadow: rgba(133, 151, 170, 0.424) 3px 20px 24px;
+          box-shadow: rgba(133, 151, 170, 0.424) 3px 20px 24px;
+}
+
+main .white-card img {
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+}
+
+main .white-card .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0em 3.125em 0em 3.125em;
+}
+
+main .white-card .container h2 {
+  margin: 2.1em 0em 0.1em 0em;
+}
+
+main .white-card .container p {
+  text-align: center;
+  margin: 0.938em 1.25em 1.25em 1.25em;
+  color: #7280a7;
+}
+
+main .white-card .container .blue-card {
+  background-color: #f5f7ff;
+  margin: auto;
+  height: 5.625em;
+  width: 21.875em;
+  border-radius: 10px;
+  padding-left: 1.25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main .white-card .container .blue-card a:hover {
+  text-decoration: none;
+  color: #7e75db;
+}
+
+main .white-card .container .blue-card img {
+  height: 48px;
+  width: 48px;
+  margin-right: 1.25em;
+}
+
+main .white-card .container .blue-card .info {
+  margin-right: 6em;
+}
+
+main .white-card .container .blue-card .info p {
+  margin: 0;
+  text-align: left;
+}
+
+main .white-card .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .white-card .button-container button {
+  font-size: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #3829e0;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 100px 11px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 2px;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(133, 151, 170, 0.424) 3px 20px 24px;
+          box-shadow: rgba(133, 151, 170, 0.424) 3px 20px 24px;
+}
+
+main .white-card .button-container button:hover {
+  background-color: #7e75db;
+}
+
+main .white-card .button-container a {
+  text-decoration: none;
+  color: #7280a7;
+  font-weight: bold;
+}
+
+main .white-card .button-container a:hover {
+  color: #1f2f56;
+}
+
+/* Media Query */
+@media only screen and (max-width: 500px) {
+  main {
+    margin-top: 5em;
+    min-width: 500px;
+    min-height: 750px;
+  }
+  main body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
