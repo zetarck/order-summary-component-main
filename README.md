@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/component-using-html5-and-css-sass-CaiSR4-fl)
 - [Live site](https://zetarck.github.io/order-summary-component-main/)
 
 ## My process
