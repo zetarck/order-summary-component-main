@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live site](https://zetarck.github.io/order-summary-component-main/)
 
 ## My process
 
@@ -57,5 +57,5 @@ Users should be able to:
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/zetarck)
+- Frontend Mentor - [@zetarck](https://www.frontendmentor.io/profile/zetarck)
 
